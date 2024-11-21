@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Mulish", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+
+    background: -webkit-linear-gradient(to right, #e65245, #e43a15);
+    background: linear-gradient(to right, #e65245, #e43a15);
+}
+
+h1 {
+    margin-left: 33%;
+    margin-top: 1%;
+    font-size: 70px;
+    font-weight: 800;
+    background: linear-gradient(360deg, rgb(0, 0, 0), rgb(255, 255, 255), rgb(255, 217, 0));
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+
+    padding: 2% 4%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.box p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 1px;
+
+}
